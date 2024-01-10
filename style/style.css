@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 header {
     padding: 50px 140px 140px 140px;
+    background-position: center;
 
 }
 
@@ -91,4 +97,73 @@ ul.deals {
     flex-shrink: 0;
     fill: url(<path-to-image>), lightgray 50% / cover no-repeat;
     margin-top: 24px;
+}
+
+
+
+.party2 {
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+        url("../resources/Vectorrr.png");
+    background-size: cover;
+    width: 1240px;
+    height: 550px;
+    background-position: center;
+    padding: 200px 140px 140px 340px;
+
+
+}
+
+.party_text {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 497px 142px 0px;
+
+}
+
+#welcome {
+    color: #FFF;
+    width: 642px;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    padding-bottom: 50px;
+}
+
+#invitation {
+    color: rgba(255, 255, 255, 0.80);
+    width: 697px;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+#join {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: transparent;
+    padding: 0;
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    padding-top: 10px;
+    padding-right: 300px;
+}
+
+#join:hover {
+    background-color: rgba(255, 255, 255, 0.1); 
+
+
 }
